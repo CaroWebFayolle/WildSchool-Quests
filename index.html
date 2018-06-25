@@ -8,7 +8,8 @@
   <h2>Une histoire de patates ...</h2>
 
   <script>
-  if (confirm('Salut ! Est-ce que tu aimes les patates ?')) {
+  var message = prompt("Est-ce que tu aimes les patates ?", "oui/non");
+  if (message == "oui") {
       document.write("donc tu aimes les patates ! En voici :<br /><br />");
       var str = "#";
       for (var i = 0; i < 7; i++) {
@@ -16,10 +17,13 @@
         str += "#";
         document.write("<br />");
       }
-
-  } else {
+  } else if (message == "non"){
       alert("Tu n'aimes pas les patates");
   }
+    else {
+      alert("Indécision");
+      }
   </script>
 
 </body>
+

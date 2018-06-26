@@ -1,8 +1,9 @@
 Variables
    nombreSaisi
-   i = 0
+   i
    
 DEBUT
+   i=0
    Entrer nombreSaisi
    Tant que i < nombreSaisi
       Afficher "Bienvenue à la Wild"

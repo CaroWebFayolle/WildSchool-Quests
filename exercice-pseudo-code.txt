@@ -1,0 +1,12 @@
+Variables
+   nombreSaisi
+   resultat
+   i = 0
+   
+DEBUT
+   Entrer nombreSaisi
+   Tant que i < nombreSaisi
+      Afficher "Bienvenue à la Wild"
+      incrémenter i de 1
+   Fin Tant que
+FIN 

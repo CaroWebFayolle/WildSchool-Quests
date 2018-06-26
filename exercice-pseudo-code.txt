@@ -1,6 +1,5 @@
 Variables
    nombreSaisi
-   resultat
    i = 0
    
 DEBUT

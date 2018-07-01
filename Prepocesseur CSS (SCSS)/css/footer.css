@@ -1,0 +1,15 @@
+/* footer */
+footer {
+  padding: 4em 0;
+}
+footer nav ul li {
+  list-style: none;
+}
+footer nav ul li a {
+  color: white;
+  font-size: 1.6em;
+}
+footer nav ul li img {
+  margin-top: 1em;
+  width: 60%;
+}

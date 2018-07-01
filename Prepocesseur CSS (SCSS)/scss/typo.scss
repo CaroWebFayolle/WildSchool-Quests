@@ -1,0 +1,40 @@
+/* typo */
+$tengwar: 'tengwar_annatarregular', sans serif;
+$aniron: 'anironregular', sans serif;
+$party: 'party_businessregular', sans serif;
+
+$orange: #ff5f01;
+$lightgrey: #f9f9f9;
+$white: white;
+
+body {
+	font-family: $party;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $aniron;
+
+  &.ornement {
+  	::before, ::after {
+  		content: " Ij ";
+		font-family: $tengwar;
+		color: $orange;
+  	}
+  }
+}
+
+
+h3 {
+	font-size: 1.8em;
+	span {
+		font-size: 0.6em;
+	}
+}
+
+/* copy's colors */
+.copy--orange {
+	color: $orange;
+}
+.copy--lightgrey {
+	color: $lightgrey;
+}

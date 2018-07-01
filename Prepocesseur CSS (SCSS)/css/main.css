@@ -1,0 +1,107 @@
+/* variables colors */
+/* variables typos */
+/* mixins */
+/* main */
+.background--orange {
+  background-color: #ff5f01;
+}
+
+body {
+  background-color: #dcdcdc;
+}
+
+.row {
+  padding: 4em 0;
+}
+.row p {
+  font-size: 4em;
+  font-family: "anironregular", sans serif;
+}
+
+#el1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#el1 div {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 6px solid #ff5f01;
+  box-shadow: 5px 6px 10px 0px rgba(255, 95, 1, 0.5);
+}
+
+#el2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#el2 div {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 25px solid #f7c83a;
+  box-shadow: 20.8333333333px 25px 41.6666666667px 0px rgba(247, 200, 58, 0.5);
+}
+
+#el3 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#el3 > div div.ring:nth-child(1) {
+  margin-left: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid dimgrey;
+  box-shadow: 2.5px 3px 5px 0px rgba(105, 105, 105, 0.5);
+}
+#el3 > div div.ring:nth-child(2) {
+  margin-left: -20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 6px solid dimgrey;
+  box-shadow: 5px 6px 10px 0px rgba(105, 105, 105, 0.5);
+}
+#el3 > div div.ring:nth-child(3) {
+  margin-left: -30px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 9px solid dimgrey;
+  box-shadow: 7.5px 9px 15px 0px rgba(105, 105, 105, 0.5);
+}
+#el3 > div div.ring:nth-child(4) {
+  margin-left: -40px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 12px solid dimgrey;
+  box-shadow: 10px 12px 20px 0px rgba(105, 105, 105, 0.5);
+}
+#el3 > div div.ring:nth-child(5) {
+  margin-left: -50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 15px solid dimgrey;
+  box-shadow: 12.5px 15px 25px 0px rgba(105, 105, 105, 0.5);
+}
+#el3 > div div.ring:nth-child(6) {
+  margin-left: -60px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 18px solid dimgrey;
+  box-shadow: 15px 18px 30px 0px rgba(105, 105, 105, 0.5);
+}

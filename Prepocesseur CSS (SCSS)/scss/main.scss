@@ -1,0 +1,68 @@
+/* variables colors */
+$orange: #ff5f01;
+$lightgrey: #f9f9f9;
+$white: white;
+
+
+/* variables typos */
+$tengwar: 'tengwar_annatarregular', sans serif;
+$aniron: 'anironregular', sans serif;
+$party: 'party_businessregular', sans serif;
+
+/* mixins */
+@mixin ring($size, $color) {
+	width: $size+px;
+	height: $size+px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: ($size / 10)+px solid $color;
+	box-shadow: ($size / 12)+px ($size / 10)+px ($size / 6)+px 0px rgba( $color, .5 );
+}
+@mixin flex() {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* main */
+.background--orange {
+	background-color: $orange;
+}
+body {
+	background-color: #dcdcdc;
+}
+.row {
+	padding: 4em 0;
+
+	p {
+		font-size: 4em;
+		font-family: $aniron;
+	}
+}
+
+#el1 {
+	@include flex();
+	
+	div {
+		@include ring(60, $orange);
+	}
+}
+
+#el2 {
+	@include flex();
+
+	div {
+		@include ring(250, #f7c83a);
+	}
+}
+
+#el3 > div {
+	@include flex();
+
+	@for $i from 1 through 6 {
+	  div.ring:nth-child(#{$i}) {
+	  	margin-left: (-20* $i/2)+px;
+	    @include ring(30 * $i, dimgrey);
+	  }
+	}
+}

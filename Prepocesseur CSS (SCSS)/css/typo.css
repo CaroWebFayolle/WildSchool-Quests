@@ -1,0 +1,29 @@
+/* typo */
+body {
+  font-family: "party_businessregular", sans serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "anironregular", sans serif;
+}
+h1.ornement ::before, h1.ornement ::after, h2.ornement ::before, h2.ornement ::after, h3.ornement ::before, h3.ornement ::after, h4.ornement ::before, h4.ornement ::after, h5.ornement ::before, h5.ornement ::after, h6.ornement ::before, h6.ornement ::after {
+  content: " Ij ";
+  font-family: "tengwar_annatarregular", sans serif;
+  color: #ff5f01;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+h3 span {
+  font-size: 0.6em;
+}
+
+/* copy's colors */
+.copy--orange {
+  color: #ff5f01;
+}
+
+.copy--lightgrey {
+  color: #f9f9f9;
+}

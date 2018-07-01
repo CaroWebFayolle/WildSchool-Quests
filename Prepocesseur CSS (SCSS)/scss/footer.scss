@@ -1,0 +1,21 @@
+/* footer */
+$orange: #ff5f01;
+$lightgrey: #f9f9f9;
+$white: white;
+
+footer {
+    padding: 4em 0;
+	
+	nav ul li {
+    	list-style: none;
+
+		a {
+		    color: $white;
+		    font-size: 1.6em;
+		}
+		img {
+		    margin-top: 1em;
+		    width: 60%;
+		}
+	}
+}

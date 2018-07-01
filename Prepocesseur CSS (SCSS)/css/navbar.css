@@ -1,0 +1,68 @@
+/* navbar init */
+.navbar.navbar-default {
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+}
+.navbar.navbar-default .navbar-nav > li {
+  list-style: none;
+  padding: 1em 0 0.2em 2em;
+  margin: 0.5em 0;
+  /* links */
+}
+.navbar.navbar-default .navbar-nav > li > a {
+  color: white;
+  padding: 0;
+  padding-right: 2em;
+  display: flex;
+  font-size: 1.5em;
+}
+.navbar.navbar-default .navbar-nav > li > a:focus, .navbar.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  background-color: transparent;
+}
+.navbar.navbar-default .navbar-nav > li:not(:last-child) > a {
+  border-right: 1px solid;
+}
+.navbar.navbar-default .navbar-nav > li.active {
+  border-bottom: 3px solid white;
+}
+.navbar.navbar-default .navbar-nav > li.active:focus, .navbar.navbar-default .navbar-nav > li.active:hover {
+  border-bottom: 3px solid white;
+}
+.navbar.navbar-default .navbar-nav > li.active > a {
+  color: white;
+  background-color: transparent;
+}
+.navbar.navbar-default .navbar-nav > li.active > a:focus, .navbar.navbar-default .navbar-nav > li.active > a:hover {
+  color: white;
+  background-color: transparent;
+}
+.navbar.navbar-default .navbar-nav > li:focus, .navbar.navbar-default .navbar-nav > li:hover {
+  border-bottom: 3px solid white;
+}
+
+/* burger */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: #ff5f01;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+/* responsive logo */
+.navbar-brand {
+  max-width: 75%;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    max-width: none;
+  }
+}

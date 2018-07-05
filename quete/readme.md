@@ -13,5 +13,7 @@
 installer les dépendances : jquery et popper.js (toujours avec l'option --save-dev pour les inclures dans le fichier .json)<br />
 4 - Guide pour modifier les themes bootstrap : https://getbootstrap.com/docs/4.0/getting-started/theming/<br />
 5 - Charger des fichiers css/sass avec Webpack : https://webpack.js.org/loaders/sass-loader/<br />
-Pour générer le css, on a utilisé MiniCssExtractPlugin
+Pour générer le css, on a utilisé MiniCssExtractPlugin<br /><br />
+
+Source et remerciement : https://github.com/nooneexpectme/wcs-webpack-start
 

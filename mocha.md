@@ -172,3 +172,60 @@ ex :
         let foo = (x)=>10+x
         console.log(foo(10))
 
+
+
+# npm
+
+## Définition
+
+npm est l'acronyme de Node Package Manager,
+il est le gestionnaire de paquets officiel de Node.js. 
+
+Il fait partie de l'environnement Node.js et est donc automatiquement installé par défaut avec ce dernier.
+
+
+Site officiel : []() 	www.npmjs.com
+
+Dépôt Github : []() github.com/npm/npm
+
+
+
+## Utilisation
+
+npm fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt npm.
+
+Typiquement, pour installer un package dans son projet, il suffit de taper cette ligne de commande :
+
+     npm install <package name>
+
+* npm installe le package voulu dans un répertoire 'node-modules' à la racine de notre projet.
+
+* Chaque package sera listé dans la package.json qui sera créé avec la commande
+    
+      npm init
+
+* npm permet de lancer des scripts présents dans la package.json tels que :
+
+      npm (run) test
+      npm (run) start
+      npm run build
+      ...
+
+  Le mot clef  ```` run ````  n'est pas nécessaire sur les commandes ```` start, test ```` car elles sont par convention utilisées sur tous les projets.
+
+* Si l'on désire l'installer uniquement pour un environnement de développement on rajoute à notre commande  ```` --save -dev ```` 
+
+
+
+### exemple : 
+
+Afin de réaliser des tests on choisit d'installer la librairie 'mocha'. Cette librairie nous sera utile au développement mais ne le sera pas en production,
+on l'installe donc uniquement pour le développement : 
+
+    npm install mocha --save -dev
+
+    npm test
+
+## Synthèse
+
+En bref, npm est incontournable pour tout développeur javascript qui se respecte.
